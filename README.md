@@ -19,8 +19,8 @@
 
 1. 下载本仓库的 `wp-useragent/` 目录
 2. 上传到 `/wp-content/plugins/` 并激活
-3. 如需 Win11 识别，额外安装 `zbook-win11-patch/` 子插件
-4. 将 `theme-functions.php` 中的代码添加到你的主题 `functions.php`
+3. 安装 `WPUA Win11 Mask`修正Win11UA的显示错误
+4. **将 `theme-functions.php` 中的代码添加到你的主题 `functions.php`**
 
 ## 许可证
 
