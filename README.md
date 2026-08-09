@@ -10,16 +10,16 @@
 1. **现代扁平化图标**：替换了原插件中所有拟物风格的浏览器/系统图标
 2. **Windows 11 识别**：通过三层 UA 改写架构实现 Win11 正确识别
    - 主题层：Chromium API 判断，将 UA 改写为 `Win NT 11`
-   - 插件层：识别 `Win NT 11` 并显示 Win11 图标
+   - 插件层：识别 `Win NT 11` 并显示 Win11 图标及文字
    - 子插件层：页面展示时把 `Win NT 11` 修正回 `Windows NT 10.0`
-3. **百科链接本地化**：将系统/浏览器介绍页由维基百科替换为百度百科
+3. **百科链接本地化**：将部分系统介绍页由维基百科替换为百度百科
 4. **部分代码使用 AI 编写**
 
 ## 安装方法
 
 1. 下载本仓库的 `wp-useragent/` 目录
 2. 上传到 `/wp-content/plugins/` 并激活
-3. 安装 `WPUA Win11 Mask`修正Win11UA的显示错误
+3. 安装本仓库内的 `WPUA Win11 Mask`插件修正WPUAR的Win11UA的显示错误
 4. **将 `theme-functions.php` 中的代码添加到你的主题 `functions.php`**
 
 ## 许可证
